@@ -1,6 +1,6 @@
 # React Typo Typingmaster
 
-One Paragraph of project description goes here
+"react-typo-typingmaster" is a React typography library which allows you to use various kind of typography in your project easily. 
 
 ## Getting Started
 
