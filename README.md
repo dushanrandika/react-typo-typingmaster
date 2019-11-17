@@ -25,29 +25,40 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+## Usage
+1. Import the react-typo-typingmaster module
 ```
-Give an example
+// ES6
+import Typo from 'react-typo-typingmaster'
+// ES5
+var Typo = require('react-typo-typingmaster').default
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
+## Example
 
 ```
-Give an example
+import React, { Component } from 'react'
+
+import { Typo } from 'react-typo'
+
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <Typo type="h1">Heading 1!</Typo>
+        <Typo type="h2">Heading 2!</Typo>
+        <Typo type="h3">Heading 3!</Typo>
+        <Typo type="h4">Heading 4!</Typo>
+        <Typo type="h5">Heading 5!</Typo>
+        <Typo type="h6">Heading 6!</Typo>
+        <Typo type="h7">Heading 7!</Typo>
+        <Typo>Print me!</Typo>
+      </div>
+    )
+  }
+}
+
 ```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
